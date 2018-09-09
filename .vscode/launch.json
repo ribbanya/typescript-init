@@ -1,6 +1,7 @@
 {
   "version": "0.2.0",
-  "configurations": [{
+  "configurations": [
+    {
       "type": "node",
       "request": "launch",
       "name": "Launch Program",
@@ -16,7 +17,7 @@
       "type": "node",
       "request": "launch",
       "name": "Jest Tests",
-      "program": "${workspaceRoot}\\node_modules\\jest\\bin\\jest.js",
+      "program": "${workspaceRoot}/node_modules/jest/bin/jest.js",
       "args": [
         "-i"
       ],
